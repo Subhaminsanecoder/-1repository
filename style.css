@@ -1,0 +1,161 @@
+*{
+    margin: 0px 0px 0px 0px;
+    
+}
+.class1{
+   background-color: black;
+}
+.class2{
+    font-size: 30px;
+    color: rgb(214, 111, 14);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.class3{
+    text-align: center;
+    color: azure;
+    font-weight: 900;
+    font-size: 35px;
+    
+}
+.class4{
+    text-align: center;
+    color: rgb(226, 99, 40);
+    font-size: 40px;
+}
+.class5{
+    width: 40%;
+}
+.class6{
+    color: white;
+    font-size: 25px;
+}
+.border{
+    border-radius: 50px 50px;
+    border-width: 4px;
+    border-color:red white red white ;
+    border-style: double;
+    margin: 20px 240px 0px 240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.class7{
+    background-color: grey;
+}
+.class9{
+    font-size:50px;
+    color:rgb(53, 55, 211);
+}
+.class11{
+    font-size: 40px;
+}
+.class12{
+    background-color: rgb(63, 235, 11);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.class13{
+    background-color: rgb(0, 0, 0);
+}
+.class14{
+    border: 3px solid orangered;
+    color: tomato;
+    background-color: yellow;
+    font-family: cursive;
+}
+.class15{
+    font-size: 20px;
+    margin-right: 50px;
+    background-color: blue;
+}
+.class16{
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: blue;
+}
+.class17{
+    border-radius: 2000px 2000px;
+    border: 4px double red;
+}
+.borders{
+   border-width: 7px;
+   border-color: red blue blue red;
+   border-style: double;
+   margin: 0px 400px 0px 0px;
+   padding-left: 300px;
+}
+.class18{
+    font-size: 30px;
+    margin: 0px 10px 0px 10px;
+    
+}
+.footerstyle{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.marquee{
+    font-size: 25px;
+    font-family: cursive;
+    background-color: darkslategray;
+    color: white;
+}
+.text{
+   
+    border-color: rgb(141, 247, 2);
+    border-style: dashed;
+    padding-left: 8px;
+    padding-right: 8px;
+   
+}
+body{
+    background-image: url('https://wallpaperaccess.com/full/187161.jpg');
+}
+#Achievments{
+    background-color: white;
+}
+#Contacts{
+   font-size: 12pc;
+    color: black;
+}
+.n1{
+    width: 100%;
+}
+#anime {
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    position: absolute;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation{
+    0% {
+        background-color: white;
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+
+    25% {
+        background-color: rgb(195, 186, 186);
+        font-size: 50px;
+        letter-spacing: 6px;
+    }
+
+    75% {
+        background-color: rgb(91, 85, 85);
+        letter-spacing: 4px;
+        font-size: 40px;
+    }
+
+    100% {
+        background-color: black;
+        letter-spacing: 3px;
+        font-size: 30px;
+        color: white;
+    }
+}
